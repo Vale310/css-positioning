@@ -114,13 +114,30 @@ footer {
     main.wrapper {
         width: 100%;
     }
-    
+
     h1.page-header {
         width: 99%;
     }
-    
+
     picture.profile img {
         width: 100%;
     }
-    
+
 }
+
+/* start positioning styles */
+
+/* Centering (steps 2-3) */
+.text-align-center{
+    text-align:center;
+    background-color:aqua;
+}
+
+.margin-auto > div{
+    margin:auto;
+    width:50%;
+    background-color:beige;
+    text-align:center;
+}
+
+/* end positioning styles */
