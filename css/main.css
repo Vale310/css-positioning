@@ -130,13 +130,11 @@ footer {
 /* Centering (steps 2-3) */
 .text-align-center{
     text-align:center;
-    background-color:aqua;
 }
 
 .margin-auto > div{
     margin:auto;
     width:50%;
-    background-color:beige;
     text-align:center;
 }
 
@@ -168,5 +166,64 @@ footer {
         width: 100%;
     }
 }
+
+/* Flexbox social media icons (steps 9-11) */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* padding:20px 25px fixes the egg-shaped Facebook icon (step 11) */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px 25px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Group the icons horizontally with flexbox (step 10) */
+.social-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* flexible image rules start here (step 14) */
+.flexible img{
+    width:100%;
+}
+
+.flexible{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* flexible image rules end here */
 
 /* end positioning styles */
